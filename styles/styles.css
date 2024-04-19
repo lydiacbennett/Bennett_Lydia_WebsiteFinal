@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+} 
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+.nav a {
+    padding: 0 16px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #E18C36;
+
+}
+
+nav button {
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: #E18C36;
+    cursor: pointer;
+    margin-left: 500px; 
+}
+
+.nav button:last-child {
+    margin-left: 0; 
+}
+
+
+nav button:hover {
+    background-color: #000000;
+}
+.back-image {
+    background-image: url(../images/kasamaimagee.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 369px;
+    padding: 20px;
+    padding-top: 50px;
+    display:flex;
+    justify-content: center;
+}
+.main {
+    background-color: black;
+    min-height: 992px;
+    padding-top: 92px;
+}
+.main-div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.main h1 {
+    font-size: 77px;
+    color: #E18C36;
+    text-align: center;
+}
+.image-container {
+    position: relative;
+    width: 477px;
+    height: 249px;
+}
+
+.image-container {
+    position: relative;
+    width: 477px;
+    height: 249px;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    z-index: 1; 
+}
+
+.back-image2 {
+    background-image: url(../images/C202011-T-Kasama-Tim-Flores-Genie-Kwon.jpg);
+    background-size: cover;
+    background-position: top;
+    min-height: 700px;
+    min-width: fit-content;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 80px;
+}
+.back-button {
+    margin: auto;
+    display:inline-block;
+    max-width: 500px;
+    display: inline-block;
+    align-items: flex-end;
+    display: flex;
+}
+.back-text {
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.back-text a {
+text-align: center;
+color:#0A4B56;
+padding: 70px 70px;
+text-decoration: none;
+background-color: #E18C36;
+font-size: 50px;
+flex-basis: 100%;
+}
+.sign {
+    min-height: 900px;
+    text-decoration: none;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 65px;
+}
+.blue {
+    background-color: #0A4B56;
+    max-height: 800px
+}
+.sign4 {
+min-height: 256px;
+display:flex;
+justify-content: center;
+align-items: center;
+display: inline-block;
+padding: 70px 40px;
+flex-direction: column;
+padding-left: 450px;
+}
+h2 {
+    margin: 0;
+ }
+ .black {
+    background-color: black;
+    padding: 40px 10px;
+ }
+.sign img {
+    padding-top: 30px;
+}
+.sign a {
+text-align: center;
+color:#0A4B56;
+padding: 70px 70px;
+text-decoration: none;
+background-color: #E18C36;
+font-size: 50px;
+flex-basis: 100%;
+justify-content: center;
+align-items: center;
+}
+.sign h1 {
+    font-size: 63px;
+    color: #E18C36;
+    text-align: center;
+}
+.sign h4 {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+}
+.footer {
+    background-color:#0A4B56;
+    min-height: 183px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer a {
+    text-decoration: none;
+    color: #E18C36;
+    padding-right: 7px;
+    padding-left: 20px;
+    font-size: 20px;
+    flex-basis: 100%;
+    align-items: center;
+}
